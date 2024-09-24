@@ -1,15 +1,17 @@
 /* src/components/LandingPage.css */
 /* src/components/LandingPage.css */
+/* src/components/LandingPage.css */
 .landing-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow-y: auto; /* Ensures the page is scrollable */
+  overflow-y: auto;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem;
   background-color: #333;
   color: white;
@@ -20,8 +22,25 @@
   z-index: 1000;
 }
 
-.navbar .site-name {
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.description h1 {
+  margin: 0;
   font-size: 1.5rem;
+}
+
+.description p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ccc;
 }
 
 .navbar nav .nav-link {
